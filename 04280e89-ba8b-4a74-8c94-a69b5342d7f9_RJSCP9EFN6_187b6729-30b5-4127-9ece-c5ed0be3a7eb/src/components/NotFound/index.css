@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.notFound {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 26px;
+}
+@media (width<=768px) {
+  .notfound {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}

@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.title1 {
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+
+.latest_matches_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  padding: 50px;
+}
+.competetor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.competing_team_logo {
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+}
+.about_match {
+  font-size: 12px;
+}
+.hr_line {
+  display: none;
+}
+.label {
+  font-size: 24px;
+}
+
+@media (width<=768px) {
+  .latest_matches_container {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .competetor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .competing_team_logo {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+  }
+  .team_banner {
+    width: 50vh;
+  }
+  .hr_line {
+    display: flex;
+  }
+}
